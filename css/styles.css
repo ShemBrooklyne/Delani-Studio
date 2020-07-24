@@ -47,14 +47,58 @@ body {
 }
 
 
-#porfolio {
+/* #porfolio {
     float: right;
     position: relative;
     margin: 5px;
     width: auto;
     height: 100%;
-    /* position: absolute; */
     bottom: 0;
     padding: 30px;
+} */
+#portfolio {
+    float: left;
+    /* position: relative; */
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
 }
+/* img {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+} */
+
+#portfolio .portfolio-text {
+    display: none;
+    opacity: 2;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: auto;
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.contact {
+    background-image: url("/images/assets/backgrounds/c_image.jpg");
+}
+
+.social #social-icons {
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+textarea{
+    /* background-color: rgb(34, 33, 33); */
+    /* backface-visibility: visible; */
+    color: teal;
+    opacity: 0.7;
+    /* resize: none; */
+}
+
 
