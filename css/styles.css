@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.jumbotron-fluid {
+    background-image: url("/images/assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 670px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron-fluid>.logo>h1>h1>h6 {
+    position: relative;
+    top: 33%;
+}
+
+.jumbotron-fluid > .logo, .welcome {
+    margin-bottom: 30px;
+}
+
+
+.delani, h4 {
+    text-transform: uppercase;
+}
+.services {
+    background-image: url("/images/assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    color: white;
+    height: 250px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container.fluid {
+    margin: 0;
+    padding: 0;
+}
+.mouse-click {
+    margin-top: 290px;
+}
+
+.about {
+    height: 270px;
+}
+
+
+#porfolio {
+    float: right;
+    position: relative;
+    margin: 5px;
+    width: auto;
+    height: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    padding: 30px;
+}
+
