@@ -3,7 +3,7 @@
 }
 
 .jumbotron-fluid {
-    background-image: url("/images/assets/backgrounds/h_img.jpg");
+    background-image: url("/images/backgrounds/h_img.jpg");
     background-size: cover;
     height: 670px;
     color: white;
@@ -25,7 +25,7 @@
     text-transform: uppercase;
 }
 .services {
-    background-image: url("/images/assets/backgrounds/s_image.jpg");
+    background-image: url("/images/backgrounds/s_image.jpg");
     background-size: cover;
     color: white;
     height: 250px;
@@ -38,7 +38,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.mouse-click {
+#mouse-click {
     margin-top: 290px;
 }
 
@@ -89,10 +89,6 @@ body {
 
 
 
-.contact #contact {
-    background-image: url("/images/assets/backgrounds/h_img.jpg");
-}
-
 .social #social-icons {
     justify-content: center;
     padding-left: 10px;
@@ -114,7 +110,7 @@ textarea{
 .portfolio-text{
     position: absolute;
     height: 0;
-    width: 66%;
+    width: 71%;
     top: 0;
     bottom: 0;
     background-color: rgb(0, 0, 0, .9);
@@ -136,5 +132,24 @@ textarea{
 
 .social {
     padding-left: 32%;
+}
+.portfolio {
+    padding-left: 7%;
+    position: relative;
+}
+h5 {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.contact {
+    background-image: url("/images/backgrounds/c_image.jpg");
+    background-size: cover;
+}
+
+#input #submit {
+    padding-left: 76%;
 }
 
