@@ -30,3 +30,8 @@ $(document).ready(function () {
     $("#product-img").fadeIn("1000");
   });
 });
+
+function output() {
+  alert("Thankyou for submiting your review on Delani-Studio.");
+  preventDefault();
+};
