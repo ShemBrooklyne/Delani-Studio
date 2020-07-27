@@ -1,6 +1,32 @@
-$(document).ready(function() {
-    $(".click0").click(function(){
-        $(".slide").slideToggle(1000);
-        $(".w-text").slideToggle(1200);
-      });
-})
+$(document).ready(function () {
+  $("#development-image").click(function () {
+    $("#development-image").toggle();
+    $("#development").toggle();
+  });
+  $("#development").click(function () {
+    $("#development").slideUp("2000");
+    $("#development-image").fadeIn("2000");
+  });
+});
+
+$(document).ready(function () {
+  $("#design-image").click(function () {
+    $("#design-image").toggle();
+    $("#design").toggle();
+  });
+  $("#design").click(function () {
+    $("#design").slideUp("2000");
+    $("#design-image").fadeIn("2000");
+  });
+});
+
+$(document).ready(function () {
+  $("#product-image").click(function () {
+    $("#product-image").toggle();
+    $("#product").toggle();
+  });
+  $("#product").click(function () {
+    $("#product").slideUp("2000");
+    $("#product-image").fadeIn("2000");
+  });
+});
