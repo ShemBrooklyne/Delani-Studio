@@ -28,6 +28,8 @@ Delani-Studio is a project that tests the skills learnt through learnig of the c
 
 <img src="images/welcome.png" alt="Delani welcome page" width="360" height="200">
 
+visit: https://shembrooklyne.github.io/Delani-Studio/
+
 ## Known Bugs
 - Mailchimp does not perform a subscribe pop-up when the page is loaded.
 
