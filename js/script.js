@@ -1,32 +1,32 @@
 $(document).ready(function () {
-  $("#development-image").click(function () {
-    $("#development-image").toggle();
+  $("#dev-img").click(function () {
+    $("#dev-img").toggle();
     $("#development").toggle();
   });
   $("#development").click(function () {
-    $("#development").slideUp("2000");
-    $("#development-image").fadeIn("2000");
+    $("#development").slideUp("1000");
+    $("#dev-img").fadeIn("1000");
   });
 });
 
 $(document).ready(function () {
-  $("#design-image").click(function () {
-    $("#design-image").toggle();
+  $("#design-img").click(function () {
+    $("#design-img").toggle();
     $("#design").toggle();
   });
   $("#design").click(function () {
-    $("#design").slideUp("2000");
-    $("#design-image").fadeIn("2000");
+    $("#design").slideUp("1000");
+    $("#design-img").fadeIn("1000");
   });
 });
 
 $(document).ready(function () {
-  $("#product-image").click(function () {
-    $("#product-image").toggle();
+  $("#product-img").click(function () {
+    $("#product-img").toggle();
     $("#product").toggle();
   });
   $("#product").click(function () {
-    $("#product").slideUp("2000");
-    $("#product-image").fadeIn("2000");
+    $("#product").slideUp("1000");
+    $("#product-img").fadeIn("1000");
   });
 });
